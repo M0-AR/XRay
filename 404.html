@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — Page not found | XRay</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#05090f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307141d'/%3E%3Cpath d='M18 16l28 32M46 16L18 48' stroke='%232ee6d6' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%235b8cff'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #05090f;
+    --bg-2: #07121b;
+    --text: #e9f5fb;
+    --muted: #93adbc;
+    --dim: #6d8797;
+    --cyan: #2ee6d6;
+    --blue: #5b8cff;
+    --line: rgba(152, 199, 221, .14);
+    --line-strong: rgba(152, 199, 221, .26);
+    --panel: rgba(12, 24, 36, .72);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 40px 20px;
+    background:
+      radial-gradient(800px 460px at 76% -8%, rgba(46, 230, 214, .13), transparent 62%),
+      radial-gradient(700px 460px at 6% 14%, rgba(91, 140, 255, .12), transparent 58%),
+      linear-gradient(180deg, var(--bg), var(--bg-2) 55%, var(--bg));
+    color: var(--text);
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .card {
+    width: 100%;
+    max-width: 640px;
+    text-align: center;
+    padding: 48px 34px 40px;
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    background: var(--panel);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, .45);
+    backdrop-filter: blur(14px);
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    font-family: 'Sora', 'Inter', system-ui, sans-serif;
+    font-weight: 800;
+    font-size: 1.05rem;
+    letter-spacing: -.01em;
+    margin-bottom: 26px;
+  }
+  .brand svg { width: 34px; height: 34px; border-radius: 9px; }
+  .code {
+    position: relative;
+    margin: 0;
+    font-family: 'Sora', 'Inter', system-ui, sans-serif;
+    font-size: clamp(5rem, 18vw, 8.5rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -.05em;
+    background: linear-gradient(120deg, var(--cyan), var(--blue) 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .code::after {
+    content: "";
+    position: absolute;
+    left: 12%;
+    right: 12%;
+    height: 2px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+    opacity: .65;
+    animation: scan 3.4s ease-in-out infinite;
+    pointer-events: none;
+  }
+  @keyframes scan {
+    0%, 100% { top: 12%; }
+    50% { top: 88%; }
+  }
+  h1 {
+    margin: 18px 0 10px;
+    font-family: 'Sora', 'Inter', system-ui, sans-serif;
+    font-size: clamp(1.35rem, 3.4vw, 1.8rem);
+    font-weight: 700;
+    letter-spacing: -.02em;
+  }
+  p {
+    margin: 0 auto 8px;
+    max-width: 46ch;
+    color: var(--muted);
+    font-size: .95rem;
+    line-height: 1.65;
+  }
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 28px 0 6px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 1px solid var(--line-strong);
+    background: rgba(152, 199, 221, .06);
+    color: var(--text);
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform .18s ease, border-color .18s ease, background .18s ease;
+  }
+  .btn:hover { transform: translateY(-1px); border-color: rgba(46, 230, 214, .45); background: rgba(46, 230, 214, .1); }
+  .btn-primary {
+    border-color: transparent;
+    background: linear-gradient(120deg, var(--cyan), var(--blue));
+    color: #04121a;
+  }
+  .btn-primary:hover { background: linear-gradient(120deg, #5cf2e5, #7aa2ff); }
+  .note { margin-top: 24px; color: var(--dim); font-size: .78rem; }
+  .note code { color: var(--muted); background: rgba(152, 199, 221, .1); padding: 2px 6px; border-radius: 5px; }
+  @media (prefers-reduced-motion: reduce) {
+    .code::after { animation: none; top: 50%; }
+    .btn { transition: none; }
+  }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="brand">
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <rect width="64" height="64" rx="14" fill="#07141d"/>
+      <path d="M18 16l28 32M46 16L18 48" stroke="#2ee6d6" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="32" cy="32" r="6" fill="#5b8cff"/>
+    </svg>
+    <span>XRay</span>
+  </div>
+  <p class="code" aria-hidden="true">404</p>
+  <h1>This page isn't in the scan.</h1>
+  <p>The link may point to an older template page, or a file that has been renamed. Nothing is broken — every demo is one click away.</p>
+  <div class="actions">
+    <a class="btn btn-primary" href="/XRay/preview.html">Open the interactive preview</a>
+    <a class="btn" href="/XRay/html/index.html">Browse the HTML demo</a>
+    <a class="btn" href="https://github.com/M0-AR/XRay">View on GitHub</a>
+  </div>
+  <p class="note">Running the suite locally? Open <code>preview.html</code> from the project root.</p>
+</main>
+</body>
+</html>

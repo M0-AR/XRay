@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use XRay in research or teaching, please cite this repository."
+title: "XRay Healthcare Dashboard Suite"
+abstract: "A healthcare interface suite with five clinical dashboards, a 72-page top-level HTML library, and matching React 18 and Vue 3 editions. Includes forms, tables, charts, RTL stylesheets and demo data."
+authors:
+  - name: "XRay"
+    alias: "M0-AR"
+    website: "https://github.com/M0-AR"
+version: "2.0.0"
+date-released: "2026-11-15"
+url: "https://m0-ar.github.io/XRay/"
+repository-code: "https://github.com/M0-AR/XRay"
+license: other
+license-url: "https://github.com/M0-AR/XRay/blob/main/LICENSE"
+keywords:
+  - healthcare
+  - hospital dashboard
+  - patient dashboard
+  - admin template
+  - bootstrap
+  - react
+  - vue
+  - rtl
+  - interface design

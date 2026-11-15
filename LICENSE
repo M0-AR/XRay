@@ -1,0 +1,62 @@
+Copyright (c) 2020 XRay. All Rights Reserved.
+
+XRay Healthcare Dashboard Suite
+HTML, React and Vue editions
+https://github.com/M0-AR/XRay
+
+This repository and its contents are proprietary. They are made publicly
+available so that individuals and organisations can evaluate the work.
+
+1. EVALUATION
+
+You may view, download and run this repository for personal evaluation,
+learning and non-commercial prototyping. You may not deploy it in production,
+publish it as your own product, or use it to deliver paid work without a
+written commercial licence.
+
+2. COMMERCIAL USE
+
+Production use, internal business deployment, client delivery, redistribution,
+resale, sublicensing, or inclusion in a commercial product or service requires
+a separate written commercial licence from the copyright holder. Licence terms,
+including scope, support and fees, are agreed in writing.
+
+To request a commercial licence, open an issue at
+https://github.com/M0-AR/XRay/issues and mark it as a licensing request, or
+contact the maintainer through https://github.com/M0-AR.
+
+3. RESTRICTIONS
+
+Without a written licence, you may not:
+
+  a. remove or alter copyright, licence or attribution notices;
+  b. redistribute the repository or any substantial portion of it;
+  c. sell, rent, lease, sublicense or otherwise commercialise the repository;
+  d. include the repository in a product or service offered to third parties;
+  e. claim authorship of the original work.
+
+4. THIRD-PARTY COMPONENTS
+
+This repository includes third-party libraries, fonts, icons and artwork.
+Those components remain under their own licences and copyrights. Nothing in
+this notice grants rights to them. You are responsible for reviewing and
+complying with their terms before use or distribution.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. THE SOFTWARE IS NOT A
+MEDICAL DEVICE AND MUST NOT BE USED FOR CLINICAL DECISION-MAKING.
+
+6. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+7. CONTACT
+
+GitHub: https://github.com/M0-AR
+Project: https://github.com/M0-AR/XRay
