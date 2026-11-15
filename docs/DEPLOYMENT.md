@@ -96,7 +96,7 @@ docker run --rm -p 8080:80 xray
 
 Open <http://localhost:8080/> and <http://localhost:8080/html/index.html>.
 
-The image is also published by the `docker-publish.yml` workflow on a version tag, if package permissions are enabled:
+A ready-to-use `docker-publish.yml` is provided in [`docs/workflows/`](workflows/). Copy it to `.github/workflows/` to publish the image on a version tag when package permissions are enabled:
 
 ```text
 ghcr.io/m0-ar/xray-demo

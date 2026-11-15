@@ -258,8 +258,7 @@ It requires no build step. Open it from a local server, or use the live preview.
 ### Documentation, checks and Docker
 
 - [`docs/`](docs/) contains the getting-started, customisation, deployment, FAQ and security notes.
-- [`.github/workflows/verify.yml`](.github/workflows/verify.yml) checks that the key files exist and that the HTML parses.
-- [`.github/workflows/docker-publish.yml`](.github/workflows/docker-publish.yml) can publish a static demo image to GitHub Container Registry on a tag.
+- [`docs/workflows/verify.yml`](docs/workflows/verify.yml) and [`docs/workflows/docker-publish.yml`](docs/workflows/docker-publish.yml) are ready-to-use GitHub Actions definitions for file checks and for publishing a static demo image. Copy them into `.github/workflows/` to enable them.
 - The included `Dockerfile` serves the preview and the HTML demo with nginx. It does not build the React or Vue editions.
 
 ---
@@ -445,8 +444,8 @@ XRay/
 │   ├── media/                # Tour GIF and preview screenshots
 │   ├── screenshots/          # Five dashboard screenshots (PNG + WebP)
 │   └── vendor/               # Vendored Three.js for the preview
-├── docs/                     # Getting started, customisation, deployment, FAQ, security
-├── .github/                  # Issue templates, pull request template and workflows
+├── docs/                     # Guides, FAQ, security notes and workflow templates
+├── .github/                  # Issue templates and pull request template
 ├── Dockerfile                # nginx image for the static preview and HTML demo
 ├── docker/nginx.conf
 ├── CITATION.cff              # Citation metadata for research and teaching

@@ -10,8 +10,8 @@ All notable changes to this repository are recorded here. The project follows se
 - Brand assets: banner, logo and social preview artwork.
 - Repository documentation: getting started, customisation, deployment, FAQ, and security and accessibility notes.
 - Issue templates, pull request template, citation metadata and a proprietary licence notice.
-- Verification workflow for required files and HTML parsing.
-- Docker image workflow and nginx configuration for the static preview and HTML demo.
+- Verification workflow template for required files and HTML parsing.
+- Docker image workflow template and nginx configuration for the static preview and HTML demo.
 
 ### Changed
 
